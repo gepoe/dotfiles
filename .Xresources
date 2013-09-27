@@ -1,0 +1,99 @@
+! general Settings
+!!!URXVT
+! Xft: DejaVu fonts
+urxvt*font: xft:dejavu sans mono:pixelsize=14:antialias=true:hinting=true
+urxvt*boldfont: xft:dejavu sans mono:bold:pixelsize=14:antialias=true:hinting=true
+
+!Scrolling
+urxvt*scrollBar: false
+!urxvt*scrollStyle: plain
+
+!Urls
+urxvt*perl-ext-common:  default,matcher
+urxvt*url-launcher:      /usr/bin/firefox
+urxvt*matcher.button:   1
+
+!Transparency
+urxvt*depth: 32
+
+! Zenburn color-scheme
+!urxvt*background:  [95]#36352B
+!urxvt*background:  [90]#000000
+urxvt*background:  #3a3a3a
+urxvt*foreground:  #dcdccc
+! black + red
+!urxvt*color0:     #3f3f3f
+urxvt*color0:      #1E2320
+urxvt*color1:      #705050
+! green + yellow
+urxvt*color2:      #60b48a
+urxvt*color3:      #dfaf8f
+! blue + purple
+urxvt*color4:      #506070
+urxvt*color5:      #dc8cc3
+! cyan + white
+urxvt*color6:      #8cd0d3
+urxvt*color7:      #dcdccc
+! bright-black + bright-red
+urxvt*color8:      #709080
+urxvt*color9:      #dca3a3
+! bright-green + bright-yellow
+urxvt*color10:     #c3bf9f
+urxvt*color11:     #f0dfaf
+! bright-blue + bright-purple
+urxvt*color12:     #94bff3
+urxvt*color13:     #ec93d3
+! bright-cyan + bright-white
+urxvt*color14:     #93e0e3
+urxvt*color15:     #ffffff
+
+! Cursor
+urxvt*cursorColor: #DCDCCC
+! URLs
+urxvt*.colorUL:    #ffffff
+
+!!!!!XTERM
+
+!Misc
+Xterm*saveLines: 4096
+xterm*borderWidth: 0
+
+! Fonts
+xterm*utf8: 1
+xterm*faceName: DejaVu Sans Mono:style=Book:antialias=true
+xterm*faceSize: 10
+
+! Forbid bold font faces; bold type is light blue.
+XTerm*colorBDMode: true
+XTerm*colorBD: rgb:82/a4/d3
+! Do not underscore text, underlined text is white.
+XTerm*colorULMode: true
+XTerm*colorUL: rgb:e4/e4/e4
+
+! Zenburn color-scheme
+xterm*background:  #3a3a3a
+xterm*foreground:  #dcdccc
+! black + red
+xterm*color0:      #1E2320
+xterm*color1:      #705050
+! green + yellow
+xterm*color2:      #60b48a
+xterm*color3:      #dfaf8f
+! blue + purple
+xterm*color4:      #506070
+xterm*color5:      #dc8cc3
+! cyan + white
+xterm*color6:      #8cd0d3
+xterm*color7:      #dcdccc
+! bright-black + bright-red
+xterm*color8:      #709080
+xterm*color9:      #dca3a3
+! bright-green + bright-yellow
+xterm*color10:     #c3bf9f
+xterm*color11:     #f0dfaf
+! bright-blue + bright-purple
+xterm*color12:     #94bff3
+xterm*color13:     #ec93d3
+! bright-cyan + bright-white
+xterm*color14:     #93e0e3
+xterm*color15:     #ffffff
